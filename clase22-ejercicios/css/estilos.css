@@ -1,0 +1,222 @@
+/*------------caracteristicas generales--------------*/
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #deddd9;
+  margin: 0 0 20px 0;
+  padding: 0;
+  border-bottom: 2px solid rgb(136, 132, 132);
+}
+
+div.main_container {
+  border: 4px solid red;
+  color: white;
+  width: 300px;
+  height: 180px;
+}
+
+div.main_container.eje1 div:last-of-type {
+  width: 30px;
+}
+
+div.main_container div:first-of-type {
+  background-color: #58b99d;
+}
+
+div.main_container div:nth-of-type(2) {
+  background-color: #5495d0;
+}
+
+div.main_container div:nth-of-type(3) {
+  background-color: #8f5ca6;
+}
+
+div.main_container div:nth-of-type(4) {
+  background-color: #38485c;
+}
+
+div.main_container div:nth-of-type(5) {
+  background-color: #eac645;
+}
+
+div.main_container div:nth-of-type(6) {
+  background-color: #d8833b;
+}
+
+div.main_container div:nth-of-type(7) {
+  background-color: #d65745;
+}
+
+div.main_container div:nth-of-type(8) {
+  background-color: #bec3c7;
+}
+
+div.main_container div:nth-of-type(9) {
+  background-color: #65c97a;
+}
+
+div.main_container div:nth-of-type(10) {
+  background-color: #4a9e86;
+}
+
+/*------------ejercicio 1---------------*/
+div.main_container.eje1 {
+  display: flex;
+}
+
+div.main_container.eje1 div {
+  width: 20px;
+}
+
+/*------------ejercicio 2---------------*/
+
+div.main_container.eje2 {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 250px;
+  overflow: hidden;
+  overflow-y: scroll;
+
+}
+
+div.main_container.eje2 div {
+  width: 500px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*------------ejercicio 3---------------*/
+
+div.main_container.eje3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.main_container.eje3 div {
+  width: 33.33%;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*------------ejercicio 4---------------*/
+div.main_container.eje4 {
+  display: flex;
+}
+
+div.main_container.eje4 div {
+  flex: 1;
+  height: 50px;
+  text-align: center;
+  font-size: 40px;
+}
+
+div.main_container.eje4 div:nth-of-type(6) {
+  order: 1;
+}
+
+div.main_container.eje4 div:nth-of-type(5) {
+  order: -1;
+}
+
+/*------------ejercicio 5---------------*/
+div.main_container.eje5 {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+
+}
+
+div.main_container.eje5 div:first-of-type {
+  font-size: 15px;
+}
+
+div.main_container.eje5  div:nth-of-type(2) {
+  font-size: 25px;
+}
+
+div.main_container.eje5  div:nth-of-type(3) {
+  font-size: 35px;
+}
+
+div.main_container.eje5  div:nth-of-type(4) {
+  font-size:45px;
+}
+
+div.main_container.eje5  div:nth-of-type(5) {
+  font-size: 10px;
+}
+
+div.main_container.eje5  div:nth-of-type(6) {
+  font-size: 25px;
+}
+
+div.main_container.eje5  div:nth-of-type(7) {
+  font-size: 25px;
+}
+
+div.main_container.eje5  div:nth-of-type(8) {
+  font-size: 25px;
+}
+
+div.main_container.eje5  div:nth-of-type(9) {
+  font-size: 25px;
+}
+
+div.main_container.eje5  div:nth-of-type(10) {
+  font-size: 20px;
+}
+
+
+/*------------ejercicio 6---------------*/
+div.main_container.eje6 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+div.main_container.eje6 div {
+  width: 33.33%;
+  height: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/*------------ejercicio 7---------------*/
+
+div.main_container.eje7 {
+  display: flex;
+  align-items: start;
+}
+
+div.main_container.eje7 div {
+  flex: 1;
+  text-align: center;
+  font-size: 30px;
+}
+
+div.main_container.eje7 div:nth-of-type(2){
+  align-self: stretch;
+}
+
+div.main_container.eje7 div:nth-of-type(6){
+  align-self: center;
+}
+
+div.main_container.eje7 div:nth-of-type(9){
+  align-self: end;
+}
+
+/*------------ejercicio 8---------------*/
+div.main_container.eje8 {
+  display: flex;
+  flex-direction: column;
+  font-size: 0;
+  justify-content: space-between;
+}
+
+div.main_container.eje8 div{
+  height: 5px;
+}

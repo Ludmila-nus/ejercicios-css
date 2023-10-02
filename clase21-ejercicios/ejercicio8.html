@@ -1,0 +1,119 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>CSS Clase 14.1 Ejercicios de Modelo de Caja</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/estilos.css" media="screen">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="viajesone">
+
+  <header class="viajes">
+    <h1>ViajesOne.com</h1>
+    <!-- las imagenes van con figure para aportarle mas semantica a la imagen. tener en ceunta que el 
+    figure es una e. de blocke y el img es inline, por lo que hay que controlar
+    el posicionamiento de figure y las img que tenga dentro-->
+    <img src="../clase21-ejercicios/img/viajesone_logo.png" alt="">
+  </header>
+  <!-- acordarse de que le nav es parte del header, ahora no lo cambio porque ya tengo la hoja
+  de estilo css editada!!!-->
+
+  <section class="conteiner_viajes">
+    <div class="conteiner_general_viajes">
+      <nav>
+        <ul class="viajes_menu">
+          <li><a href="#">inicio</a></li>
+          <li><a href="#">casas rurales</a></li>
+          <li><a href="#">campings</a></li>
+          <li><a href="#">hoteles</a></li>
+          <li><a href="#">opiniones!</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="banner">
+      <img src="../clase21-ejercicios/img/viajesone_portada.png" alt="foto banner">
+    </div>
+  </section>
+  <main>
+    <!-- acordarse de poner articles cuando hay una foto y una descripcion ya que aca cada section tiene
+      significado por si mismo por lo que deberia ir una etiqueta article en vez de section-->
+    <div class="items">
+      <section class="item_one">
+        <img src="../clase21-ejercicios/img/houses.png" alt="house">
+        <h2>casas rurales</h2>
+        <p>Finca <strong>Ecologina</strong> de 15 hectaeras, cerrada con muros de piedra. Te pfreceos alojarte en un
+          nosque de castaños y alcornoques centenarios, donde pasear en provado con la familia y los amigos, en pleno
+          parque natural de la Sierra de rancena y Picos de Aroche. 2 plazas 5 domir, 4 baños...</p>
+      </section>
+
+      <section class="item_two">
+        <img src="../clase21-ejercicios/img/camping.png" alt="camping">
+        <h2>camping</h2>
+        <p><strong>parcelas</strong> de 70m2, a 140m2 con electricidad, agua y desague. Bungalows totalmente equipados,
+          pidscinas, parque infantil, zona deportiva, modernos aseos adaptados a minusvalidos. Duchas de agua caliente
+          ára
+          mascotas, wifi gratuita en las parcelas. recepcion 24 horas y vigilancia nocturna. cantina. lavanderia.
+          alvachoches. wm. quimico y desaques autocaravanas </p>
+      </section>
+
+      <section class="item_three">
+        <img src="../clase21-ejercicios/img/hotels.png" alt="hotels">
+        <h2>
+          hoteles
+        </h2>
+        <p>situado en el corazon del distrito comercial de la cuudad , el <strong>gran hotel</strong>Lar es ideal para
+          ir
+          por motivos de trabajo. el gran hotel Lar tiene 137 habitaciones totalmente equipadas con las comodidaes
+          basicas
+          aire acondicionado televisor por cable, telefono e internet. los servicios del horel uncluyen recepcon las 24
+          horas, lavanderua y servicio a la hoabitacion. los restaurantes de la casa estan dusponibles para los clientes
+          que quieran dsfrutar de comida local o intgernacional</p>
+      </section>
+    </div>
+    <!--acordarse de usar esta etiqueta cuando el contenido no es relevante en la pagina como esta parte -->
+    <aside>
+    <div class="opiniones">
+      <section>
+        <h2>opiniones de clientes</h2>
+        <div>
+          <img src="../clase21-ejercicios/img/male.png" alt="male">
+          <img src="../clase21-ejercicios/img/star_white.png" alt="star">
+          <img src="../clase21-ejercicios/img/star_white.png" alt="star">
+          <img src="../clase21-ejercicios/img/star_white.png" alt="star">
+          <img src="../clase21-ejercicios/img/star_white.png" alt="star">
+          <img src="../clase21-ejercicios/img/star_white.png" alt="star">
+          <h3>siempre dan una respuesta, una solucion, sintiempo de espera y con un trato amigable. excelente servicio
+          </h3>
+        </div>
+        <div>
+          <img src="../clase21-ejercicios/img/female.png" alt="male">
+          <img src="../clase21-ejercicios/img/star_white.png" alt="star">
+          <img src="../clase21-ejercicios/img/star_white.png" alt="star">
+          <img src="../clase21-ejercicios/img/star_white.png" alt="star">
+          <img src="../clase21-ejercicios/img/star_white.png" alt="star">
+          <h3>estoy muy stisfecha con sus servicios y alojamientos ofrecidos.</h3>
+        </div>
+      </section>
+    </div>
+  </aside>
+
+  </main>
+
+
+  <footer>
+    <p><a href="index.html">Atras &#128072</a></p>
+  </footer>
+</body>
+
+</html>

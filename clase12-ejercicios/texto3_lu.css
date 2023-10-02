@@ -1,0 +1,18 @@
+html {
+    font-size: 18px;
+  }
+
+
+h1 {
+   text-align: center;
+   text-transform: uppercase;
+   
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+ul li strong{
+   text-decoration-line: underline;
+}

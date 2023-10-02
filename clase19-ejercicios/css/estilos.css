@@ -1,0 +1,202 @@
+.conteiner {
+  background-color: rgb(181, 182, 183);
+  border: 1px solid rgb(146, 144, 144);
+  width: 500px;
+  height: 300px;
+  position:relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.rojo{
+  background-color: red;
+}
+.azul{
+  background-color: blue;
+}
+.verde{
+  background-color: green;
+}
+.amarillo{
+  background-color: yellow;
+}
+
+/*------- ejercicio 1 ---------------------*/
+
+.conteiner_ejercicio1 .rojo {
+  width: 40%;
+  height: 50px;
+  margin: 10px;
+}
+
+.conteiner_ejercicio1 .azul {
+  width: 40%;
+  height: 50px;
+  margin: 10px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.conteiner_ejercicio1 .verde {
+  width: 40%;
+  height: 100px;
+  margin: 10px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.conteiner_ejercicio1 .amarillo {
+  width: 40%;
+  height: 100px;
+  margin: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+/*------- ejercicio 2 ---------------------*/
+
+.conteiner_ejercicio2 .rojo{
+width: 25%;
+height: 100px;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.conteiner_ejercicio2 .azul{
+  width: 25%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.conteiner_ejercicio2 .verde{
+  width: 25%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.conteiner_ejercicio2 .amarillo{
+  width: 25%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+ right: 0;
+}
+
+/*------- ejercicio 3 ---------------------*/
+
+.conteiner_ejercicio3 .rojo{
+  width: 50%;
+  height: 80px;
+  position: absolute;
+  bottom: 15px;
+  left: 150px;
+  z-index: 1;
+}
+
+.conteiner_ejercicio3 .azul{
+  width: 45%;
+  height: 140px;
+  position: absolute;
+  top: 5px;
+  left: 120px ;
+}
+
+.conteiner_ejercicio3 .verde{
+  width: 30%;
+  height: 120px;
+  position: absolute;
+  top: 100px;
+  left: 80px ;
+}
+
+.conteiner_ejercicio3 .amarillo{
+  width: 35%;
+  height: 150px;
+  position: absolute;
+  top: 60px;
+  left: 300px ;
+}
+
+/*------- ejercicio 4 ---------------------*/
+
+.conteiner_ejercicio4 {
+  padding: 40px;
+  font-size: 0;
+}
+
+.conteiner_ejercicio4 .rojo{
+  width: 25%;
+  height: 220px;
+  display: inline-block;
+
+}
+
+.conteiner_ejercicio4 .azul{
+  width: 25%;
+  height: 220px;
+  display: inline-block;
+
+}
+
+.conteiner_ejercicio4 .verde{
+  width: 25%;
+  height: 220px;
+  display: inline-block;
+
+}
+
+.conteiner_ejercicio4 .amarillo{
+  width: 25%;
+  height: 220px;
+  display: inline-block;
+
+}
+
+
+
+/*------- ejercicio 5 ---------------------*/
+
+.conteiner_ejercicio5 {
+  padding: 40px;
+
+}
+
+.conteiner_ejercicio5 .rojo{
+  width: 90%;
+  height: 80px;
+  position: absolute;
+  left: 10px;
+}
+
+.conteiner_ejercicio5 .azul{
+  width: 80px;
+  height: 250px;
+  z-index: 1;
+  position: absolute;
+  left: 100px;
+  top: 20px;
+}
+
+.conteiner_ejercicio5 .verde{
+  width: 80px;
+  height: 250px;
+  z-index: 1;
+  position: absolute;
+  left: 300px;
+  top: 20px;
+}
+
+.conteiner_ejercicio5 .amarillo{
+  width: 90%;
+  height: 80px;
+  position: absolute;
+  left: 10px;
+  top: 170px;
+}

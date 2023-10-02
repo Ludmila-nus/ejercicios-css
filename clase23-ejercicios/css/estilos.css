@@ -1,0 +1,109 @@
+/*----------ejercicio 1-----------*/
+
+div.grid-eje1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 50px);
+}
+
+div.grid-eje1 div {
+  background-color: rgb(66, 1, 66);
+  margin: 5px;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*----------ejercicio 2-----------*/
+
+div.grid-eje2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 100px);
+  border: 5px solid rgb(194, 189, 189);
+}
+
+div.grid-eje2 div {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(244, 180, 244);
+  margin: 2px;
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*----------ejercicio 3-----------*/
+
+div.grid-eje3 {
+  display: grid;
+  grid-template-columns: 50px 100px;
+  grid-template-rows: 50px 100px 50px;
+  width: 150px;
+  border: 5px solid rgb(194, 189, 189);
+}
+
+div.grid-eje3 div {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(9, 216, 216);
+  margin: 2px;
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*----------ejercicio 4-----------*/
+
+div.grid-eje4 {
+  display: grid;
+  grid-template-areas:
+    "head head head head"
+    "menu menu empty sidebar"
+    "foot foot foot foot";
+  border: 5px solid rgb(194, 189, 189);
+  width: 500px;
+  height: 150px;
+}
+
+
+div.grid-eje4 div{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  border: 2px solid rgb(141, 137, 137);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+
+}
+
+div.grid-eje4 div.item1 {
+  grid-area: head;
+  background-color: palevioletred;
+}
+
+div.grid-eje4 div.item2 {
+  grid-area: menu;
+  background-color: rgb(33, 196, 177);
+}
+
+div.grid-eje4 div.item3 {
+  grid-area: sidebar;
+  background-color: rgb(88, 242, 124);
+}
+
+div.grid-eje4 div.item4 {
+  grid-area: foot;
+  background-color: rgb(96, 78, 84);
+}

@@ -1,0 +1,277 @@
+/*------- ejercicio 1 ---------------------*/
+/* la tipografia va en ngeneral en el archivo porque se hereda a todos sus descendientes
+es mas eficiente que ponerle la tipografia a cada etiqueta si es la misma para todas*/
+h1 {
+  background-color: rgb(72, 71, 71);
+  color: white;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0;
+  margin: 0px;
+  padding: 30px;
+}
+
+.conteiner_general {
+  background-color: rgb(176, 176, 176);
+  color: rgb(84, 84, 84);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0;
+  margin: 0px;
+}
+
+nav.conteiner_general a {
+  text-decoration-line: none;
+  color: rgb(84, 84, 84);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 20px;
+  display: block;
+  margin: 0;
+}
+
+
+nav.conteiner_general a:hover {
+  background-color: rgb(84, 84, 84);
+  color: white;
+}
+
+nav.conteiner_general ul {
+  text-transform: capitalize;
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+/*----ejercicio 2--------------*/
+ul.ejercicio_2 {
+  justify-content: center;
+}
+
+/*----ejercicio 3--------------*/
+ul.ejercicio_3 {
+  justify-content: space-between;
+}
+
+/*----ejercicio 4--------------*/
+ul.ejercicio_4 {
+  flex-direction: column;
+}
+
+div.nav_ejercicio4 nav {
+  max-width: 250px;
+}
+
+/*----ejercicio 5--------------*/
+nav.conteiner_general.blanco {
+  background-color: white;
+}
+
+nav.conteiner_general.blanco h1 {
+  margin-bottom: 100px;
+}
+ul.ejercicio_5y6 {
+  background-color: grey;
+}
+
+
+ul.ejercicio_5y6 img {
+  border: 2px dashed rgb(89, 89, 89);
+  max-width: 150px;
+  display: flex;
+}
+
+ul.ejercicio_5y6 li:first-of-type {
+  order: 6;
+}
+
+ul.ejercicio_5y6 li:nth-of-type(2) {
+  order: 1;
+}
+
+ul.ejercicio_5y6 li:nth-of-type(3) {
+  order: 4;
+}
+
+ul.ejercicio_5y6 li:nth-of-type(4) {
+  order: 2;
+}
+
+ul.ejercicio_5y6 li:nth-of-type(5) {
+  order: 3;
+}
+
+ul.ejercicio_5y6 li:nth-of-type(6) {
+  order: 5;
+}
+
+/*----ejercicio 6--------------*/
+ul.ejercicio_5y6.grey {
+  background-color: rgba(204, 204, 204, 255);
+  padding: 15px;
+}
+
+/*----ejercicio 7--------------*/
+header.eje7 {
+  background-color: black;
+}
+
+header.eje7 h1 {
+  text-align: end;
+  background-color: black;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+section.conteiner_two {
+  display: flex;
+  background-color: white;
+  width: 33.33%;
+}
+
+section.conteiner_two img{
+  margin: 10px;
+  width: 410px;
+}
+
+section.conteiner_two p {
+  text-align: justify;
+}
+
+section.conteiner_two h2 {
+  text-align: center;
+}
+
+section.conteiner_two section:first-of-type {
+  background-color: rgb(180, 216, 243);
+  padding: 10px;
+}
+
+section.conteiner_two section:nth-of-type(2) {
+  background-color: rgb(175, 238, 175);
+  padding: 10px;
+}
+
+section.conteiner_two section:nth-of-type(3) {
+  background-color: rgb(231, 231, 248);
+  padding: 10px;
+}
+
+
+/*----ejercicio 8--------------*/
+.viajesone {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header.viajes {
+  background-color: #b4ff6b;
+  margin: 0;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+
+}
+
+header.viajes h1 {
+  background-color: #b4ff6b;
+  color: rgb(65, 63, 63);
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  vertical-align: text-bottom;
+}
+
+div.conteiner_general_viajes ul{
+  display: flex;
+  text-transform: capitalize;
+  list-style-type: none;
+  background-color: rgb(22, 169, 22);
+  margin: 0;
+  padding: 10px;
+
+}
+
+div.conteiner_general_viajes ul li + li:before{
+  content: '|';
+  margin: 10px;
+  color: white;
+}
+
+div.conteiner_general_viajes ul li a{
+  text-decoration-line: underline;
+  color: white;
+}
+
+div.conteiner_general_viajes ul li a:hover{
+  background-color: white;
+  color: #b4ff6b;
+  cursor: pointer;
+}
+
+div.banner img {
+  width: 2000px;
+  max-width: 100%;
+
+}
+
+div.items section {
+  border: 4px solid rgb(19, 18, 18);
+  border-radius: 30px 0 30px 0;
+  margin: 40px;
+  position: relative;
+  padding-top: 50px;
+}
+
+div.items section h2 {
+  text-transform: uppercase;
+}
+
+div.items section p {
+  font-size: 13px;
+}
+
+
+div.items section img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+div.items section.item_one {
+  border-color: rgb(142, 142, 14);
+  background-color: #fdfcb7;
+  padding: 50px 10px 10px 10px;
+}
+
+div.items section.item_two {
+  border-color: green;
+  background-color: #d3ffac;
+  padding: 50px 10px 10px 10px;
+}
+
+div.items section.item_three {
+  border-color: rgb(5, 5, 165);
+  background-color: #b8e3ff;
+  padding: 50px 10px 10px 10px;
+}
+
+div.opiniones {
+  border-top: 10px solid rgb(97, 97, 97);
+  border-bottom: 10px solid grey;
+  background-color: #cccccc;
+  color: rgb(97, 97, 97);
+  margin: 40px;
+  padding: 20px;
+  font-size: 10px;
+}
+
+div.opiniones h2 {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+div.opiniones img{
+  padding: 5px;
+}
