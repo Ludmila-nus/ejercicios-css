@@ -1,4 +1,4 @@
-![Texto Alternativo](C:\Users\Usuario\Desktop\Master-conquer-blocks\CSS\ejercicios\CSS Exercises.png)
+![banner](CSS%20Exercises.png)
 
 # CSS Exercises: Learning and Practicing Web Styles 🚀
 
