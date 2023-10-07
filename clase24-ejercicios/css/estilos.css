@@ -1,0 +1,184 @@
+/*---posicion de los numeros en las esquinas general para todas las cartas*/
+div.carta-a{
+  position: relative;
+ }
+
+div.carta-a div.imgcarta-a img{
+  width: 45px;
+  position: absolute;
+  top: 75px;
+  left: 10px;
+} 
+ 
+div.carta-a div.numcarta-a{
+  position: absolute;
+  font-size: 50px;
+  font-weight: 600 ;
+  top: 20px;
+  left: 10px;
+}
+
+div.carta-b{
+  position: relative;
+ }
+
+div.carta-b div.imgcarta-b img{
+  width: 45px;
+  position: absolute;
+  top: 475px;
+  left: 395px;
+  transform: rotate(180deg);
+} 
+ 
+div.carta-b div.numcarta-b{
+  position: absolute;
+  font-size: 50px;
+  font-weight: 600 ;
+  top: 520px;
+  left: 400px;
+  transform: rotate(180deg);
+}
+
+/*----------ejercicio 1-----------*/
+
+div.grid-carta1 {
+  display: grid;
+  border: 2px solid black;
+  width: 450px;
+  height: 600px;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+div.grid-carta1 div.pica3{
+  transform: rotate(180deg);
+}
+
+div.grid-carta1 div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+div.grid-carta1 div img{
+  width: 80%;
+}
+
+/*----------ejercicio 2-----------*/
+div.grid-carta2 {
+  display: grid;
+  border: 2px solid black;
+  width: 450px;
+  height: 600px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+div.grid-carta2 div.pica3, div.grid-carta2 div.pica4{
+  transform: rotate(180deg);
+}
+
+
+div.grid-carta2 div{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+div.grid-carta2 div img{
+  width: 70%;
+}
+
+/*----------ejercicio 3-----------*/
+div.grid-carta3 {
+  display: grid;
+  border: 2px solid black;
+  width: 450px;
+  height: 600px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  border-radius: 10px;
+  position: absolute;
+}
+
+
+div.grid-carta3 div img{
+  width: 60%;
+}
+
+div.grid-carta3 div.pica1{
+  position: absolute;
+  left: 90px;
+  top: 15px;
+}
+div.grid-carta3 div.pica2{
+  position: absolute;
+  left: 250px;
+  top: 15px;
+}
+
+div.grid-carta3 div.pica3{
+  position: absolute;
+  left: 90px;
+  top: 170px;
+}
+
+div.grid-carta3 div.pica4{
+  position: absolute;
+  left: 250px;
+  top: 170px;
+}
+
+div.grid-carta3 div.pica5{
+  position: absolute;
+  left: 30px;
+  top: 320px;
+}
+
+div.grid-carta3 div.pica6{
+  position: absolute;
+  left: 190px;
+  top: 320px;
+}
+
+div.grid-carta3 div.pica7{
+  position: absolute;
+  left: 30px;
+  top: 470px;
+}
+
+div.grid-carta3 div.pica8{
+  position: absolute;
+  left: 190px;
+  top: 470px;
+}
+
+
+div.grid-carta3 div.pica9 {
+  position: absolute;
+  left: 172px;
+  bottom: 390px;
+}
+
+div.grid-carta3 div.pica10 {
+  position: absolute;
+  right: 172px;
+  bottom: 105px;
+  transform: rotate(180deg);
+
+}
+
+div.grid-carta3 div.pica5, div.grid-carta3 div.pica6, div.grid-carta3 div.pica7, div.grid-carta3 div.pica8 {
+  transform: rotate(180deg);
+
+
+}

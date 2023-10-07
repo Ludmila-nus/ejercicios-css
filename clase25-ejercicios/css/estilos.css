@@ -1,0 +1,23 @@
+
+
+/*----------ejercicio 1-----------*/
+
+div.ejerc1 {
+  display: grid;
+  width: 600px;
+  height: 100px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns:repeat(3, 1fr) ;
+
+}
+
+div.ejerc1 div {
+  gap: 1px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(80, 78, 78);
+  border: 1px solid white;
+  
+}
