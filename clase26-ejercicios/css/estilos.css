@@ -1,0 +1,409 @@
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  font-size: 26px;
+  font-weight: 900;
+}
+
+/*----------ejercicio 1-----------*/
+
+div.ejerc1 {
+  display: grid;
+  width: 800px;
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+  margin: 20px;
+  padding: 10px;
+  background-image: linear-gradient(to right, rgb(228, 116, 134), rgb(131, 6, 204));
+}
+
+div.ejerc1 div:first-of-type {
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(246, 249, 47);
+}
+
+div.ejerc1 div:nth-of-type(2) {
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(246, 249, 47);
+}
+
+div.ejerc1 div:nth-of-type(2),
+div.ejerc1 div:nth-of-type(3),
+div.ejerc1 div:nth-of-type(4),
+div.ejerc1 div:nth-of-type(5),
+div.ejerc1 div:nth-of-type(7),
+div.ejerc1 div:nth-of-type(10),
+div.ejerc1 div:nth-of-type(11),
+div.ejerc1 div:nth-of-type(13),
+div.ejerc1 div:nth-of-type(14),
+div.ejerc1 div:nth-of-type(15),
+div.ejerc1 div:nth-of-type(17),
+div.ejerc1 div:nth-of-type(19),
+div.ejerc1 div:nth-of-type(20),
+div.ejerc1 div:nth-of-type(21),
+div.ejerc1 div:nth-of-type(22),
+div.ejerc1 div:nth-of-type(23),
+div.ejerc1 div:nth-of-type(25),
+div.ejerc1 div:nth-of-type(26),
+div.ejerc1 div:nth-of-type(28),
+div.ejerc1 div:nth-of-type(29),
+div.ejerc1 div:nth-of-type(31),
+div.ejerc1 div:nth-of-type(33),
+div.ejerc1 div:nth-of-type(34),
+div.ejerc1 div:nth-of-type(35),
+div.ejerc1 div:nth-of-type(36),
+div.ejerc1 div:nth-of-type(37),
+div.ejerc1 div:nth-of-type(38) {
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(246, 249, 47);
+}
+
+div.ejerc1 div:nth-of-type(8) {
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(241, 84, 48);
+  grid-column: 7 / 9;
+}
+
+div.ejerc1 div:nth-of-type(16) {
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(241, 84, 48);
+  grid-area: 3 / 8 / span 1 / span 2;
+}
+
+div.ejerc1 div:nth-of-type(32) {
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(241, 84, 48);
+  grid-area: 7 / 3 / span 1 / span 2;
+}
+
+div.ejerc1 div:nth-of-type(24) {
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(241, 84, 48);
+  grid-area: 5 / 2 / span 1 / span 2;
+}
+
+div.ejerc1 div:nth-of-type(9) {
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(32, 240, 184);
+  grid-area: 1 / 9 / span 2 / span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.ejerc1 div:nth-of-type(27) {
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(32, 240, 184);
+  grid-area: 6 / 2 / span 2 / span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.ejerc1 div:nth-of-type(6) {
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(14, 141, 205);
+  grid-area: 2 / 1 / span 1 / span 6;
+}
+
+div.ejerc1 div:nth-of-type(12) {
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(14, 141, 205);
+  grid-area: 3 / 1 / span 1 / span 6;
+}
+
+div.ejerc1 div:nth-of-type(30) {
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(14, 141, 205);
+  grid-area: 6 / 5 / span 1 / span 6;
+}
+
+div.ejerc1 div:nth-of-type(18) {
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(31, 236, 48);
+  grid-area: 4 / 5 / span 2 / span 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*----------ejercicio 2 -----------*/
+
+body.ejerc2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-image: linear-gradient(to right, rgb(228, 116, 134), rgb(131, 6, 204));
+  padding: 10px;
+}
+
+body.ejerc2 div.banner {
+  display: grid;
+  height: 300px;
+  grid-template-columns: 3.5fr 1.5fr;
+  grid-template-rows: repeat(2, 2fr);
+  gap: 10px;
+}
+
+body.ejerc2 div.banner>div:first-of-type {
+  grid-area: 1 / 1 / span 2 / span 1;
+  background-image: url("../img/imagen-principal.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+body.ejerc2 div.banner div:nth-of-type(2),
+body.ejerc2 div.banner div:nth-of-type(3) {
+  grid-area: span 1 / span 1;
+  background-color: rgb(238, 204, 9);
+  flex-direction: column;
+}
+
+
+body.ejerc2 div.banner div.precio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body.ejerc2 div.banner div.precio div:first-of-type {
+  font-size: 2.5em;
+}
+
+
+body.ejerc2 div.banner h2 {
+  background-color: rgb(238, 204, 9);
+  display: inline;
+  position: absolute;
+  top: 90px;
+  left: 25px;
+  text-transform: capitalize;
+}
+
+body.ejerc2 div.banner p {
+  background-color: rgb(238, 204, 9);
+  display: inline;
+  position: absolute;
+  top: 130px;
+  left: 25px;
+  text-transform: capitalize;
+}
+
+div.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+div.nav ul li {
+  margin-top: 10px;
+  width: 230px;
+  padding: 10px;
+  background-color: rgb(238, 204, 9);
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 2fr;
+  gap: 20px;
+
+}
+
+.section1 div {
+  background-color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.5em;
+}
+
+.section1 div img {
+  width: 40%;
+  height: 100%;
+}
+
+.section1 div h2 {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.section1 div p {
+  font-weight: 400;
+  color: grey;
+}
+
+.section1 div:first-of-type {
+  grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.section1 div:nth-last-of-type(2) {
+  grid-area: 1 / 2 / span 1 / span 1;
+}
+
+.section1 div:nth-last-of-type(3) {
+  grid-area: 1 / 3 / span 1 / span 1;
+}
+
+.section1 div:nth-last-of-type(4) {
+  grid-area: 1 / 4 / span 1 / span 1;
+}
+
+.section1 .div2 {
+  grid-area: 2 / 1 / span 1 / span 4;
+}
+
+
+.section1 .div2 .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+}
+
+.section1 .div2 .grid-container figure {
+  grid-column: 1 / 2;
+}
+
+.section1 .div2 .grid-container figure img {
+  width: 110%;
+  height: 110%;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.section1 .div2 .grid-container div {
+  grid-column: 2 / 3;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.section1 .div2 .grid-container div h2 {
+  font-size: 0.9em;
+  font-weight: 900;
+  margin: 0;
+  padding: 10px;
+}
+
+.section1 .div2 .grid-container div p {
+  font-size: 0.7em;
+  font-weight: 900;
+  color: black;
+  margin: 0;
+  padding: 10px;
+}
+
+.section1 .div2 .grid-container div button {
+  background-color: rgb(238, 204, 9);
+  border: none;
+  width: 150px;
+  height: 40px;
+  font-size: 0.7em;
+  font-weight: 700;
+}
+
+.section2a {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr 2.5fr;
+  gap: 10px;
+
+}
+
+.section2a > div:first-of-type {
+  background-image: linear-gradient(to left, rgb(255, 165, 0, 1), rgb(255, 238, 205, 0));
+  height: 20px;
+  margin-top: 20px;
+}
+
+.section2a > :last-of-type {
+  background-image: linear-gradient(to right, rgb(255, 165, 0, 1), rgb(255, 238, 205, 0));
+  height: 20px;
+  margin-top: 20px;
+}
+
+.section2a > div:nth-of-type(2) {
+  font-size: 0.5em;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.section2b figure {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
+  margin: 0;
+}
+
+.section2b figure img {
+  width: 100%;
+  height: auto;
+}
+
+.section2b>figure>img:first-of-type {
+  grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.section2b>figure>img:nth-of-type(2) {
+  grid-area: 1 / 2 / span 1 / span 1;
+}
+
+.section2b>figure>img:nth-of-type(3) {
+  grid-area: 1 / 3 / span 1 / span 1;
+}
+
+.section2b>figure>img:nth-of-type(4) {
+  grid-area: 1 / 4 / span 1 / span 1;
+}
+
+.section2b>figure>img:nth-of-type(5) {
+  grid-area: 1 / 5 / span 1 / span 1;
+}
+
+.section2b>figure>img:nth-of-type(6) {
+  grid-area: 2 / 1 / span 1 / span 1;
+}
+
+.section2b>figure>img:nth-of-type(7) {
+  grid-area: 2 / 2 / span 1 / span 1;
+}
+
+.section2b>figure>img:nth-of-type(8) {
+  grid-area: 2 / 3 / span 1 / span 1;
+}
+
+.section2b>figure>img:nth-of-type(9) {
+  grid-area: 2 / 4 / span 1 / span 1;
+}
+
+.section2b>figure>img:nth-of-type(10) {
+  grid-area: 2 / 5 / span 1 / span 1;
+}

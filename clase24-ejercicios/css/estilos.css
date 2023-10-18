@@ -18,6 +18,7 @@ div.carta-a div.numcarta-a{
   left: 10px;
 }
 
+
 div.carta-b{
   position: relative;
  }
@@ -102,76 +103,31 @@ div.grid-carta3 {
   border: 2px solid black;
   width: 450px;
   height: 600px;
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-  align-items: center;
+  grid-template-rows: repeat(4, 100px);
+  grid-template-columns: repeat(2, 150px);
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;  
   border-radius: 10px;
   position: absolute;
 }
 
 
 div.grid-carta3 div img{
-  width: 60%;
+  width: 50%;
 }
 
-div.grid-carta3 div.pica1{
-  position: absolute;
-  left: 90px;
-  top: 15px;
-}
-div.grid-carta3 div.pica2{
-  position: absolute;
-  left: 250px;
-  top: 15px;
-}
-
-div.grid-carta3 div.pica3{
-  position: absolute;
-  left: 90px;
-  top: 170px;
-}
-
-div.grid-carta3 div.pica4{
-  position: absolute;
-  left: 250px;
-  top: 170px;
-}
-
-div.grid-carta3 div.pica5{
-  position: absolute;
-  left: 30px;
-  top: 320px;
-}
-
-div.grid-carta3 div.pica6{
-  position: absolute;
-  left: 190px;
-  top: 320px;
-}
-
-div.grid-carta3 div.pica7{
-  position: absolute;
-  left: 30px;
-  top: 470px;
-}
-
-div.grid-carta3 div.pica8{
-  position: absolute;
-  left: 190px;
-  top: 470px;
-}
 
 
 div.grid-carta3 div.pica9 {
   position: absolute;
-  left: 172px;
+  left: 180px;
   bottom: 390px;
 }
 
 div.grid-carta3 div.pica10 {
   position: absolute;
-  right: 172px;
+  right: 180px;
   bottom: 105px;
   transform: rotate(180deg);
 
@@ -179,6 +135,11 @@ div.grid-carta3 div.pica10 {
 
 div.grid-carta3 div.pica5, div.grid-carta3 div.pica6, div.grid-carta3 div.pica7, div.grid-carta3 div.pica8 {
   transform: rotate(180deg);
+  display: flex;
+  justify-content: center;
+}
 
-
+div.grid-carta3 div.pica1, div.grid-carta3 div.pica2, div.grid-carta3 div.pica3, div.grid-carta3 div.pica4{
+  display: flex;
+  justify-content: center;
 }

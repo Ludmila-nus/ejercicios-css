@@ -1,23 +1,288 @@
+body{
+  font-size: 16px;
+  margin: 10px;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
 
 /*----------ejercicio 1-----------*/
 
 div.ejerc1 {
   display: grid;
-  width: 600px;
-  height: 100px;
+  width: 400px;
+  height: 150px;
   grid-template-rows: repeat(3, 1fr);
-  grid-template-columns:repeat(3, 1fr) ;
-
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin: 20px;
 }
 
 div.ejerc1 div {
   gap: 1px;
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(80, 78, 78);
-  border: 1px solid white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(118, 117, 120);
+}
+
+
+/*----------ejercicio 2 -----------*/
+div.ejerc2 {
+  display: grid;
+  grid-template-rows: 1fr ;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin: 20px;
+}
+
+div.ejerc2 div {
+  gap: 1px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(118, 117, 120);
+}
+
+div.ejerc2 div.celda1{
+  grid-column: 1 / span 3;
+} 
+
+
+/*----------ejercicio 3 -----------*/
+div.ejerc3 {
+  display: grid;
+  grid-template-rows: 1fr ;
+  grid-template-columns: 100px repeat(2, 150px);
+  gap: 1px;
+  margin: 20px;
+}
+
+div.ejerc3 div {
+  gap: 1px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(118, 117, 120);
+}
+
+div.ejerc3 div.celda1{
+  grid-column: 1 / span 3;
+} 
+
+div.ejerc3 div.celda2{
+ grid-row: 2 / span 2;
+} 
+
+
+/*----------ejercicio 4-----------*/
+div.ejerc4 {
+  display: grid;
+  grid-template-rows: 1fr ;
+  grid-template-columns: 100px repeat(2, 150px);
+  gap: 1px;
+  margin: 20px;
+}
+
+div.ejerc4 div {
+  gap: 1px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(118, 117, 120);
+}
+
+div.ejerc4 div.celda1{
+  grid-area: 1 / 1 / span 1 / span 3;
+}
+
+div.ejerc4 div.celda2{
+  grid-area: 2 / 1 / span 2 / span 1 ;
   
+}
+
+/*----------ejercicio 5-----------*/
+div.ejerc5 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(4, 150px);
+  gap: 1px;
+  margin: 20px;
+}
+
+div.ejerc5 div {
+  gap: 1px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(118, 117, 120);
+}
+
+div.ejerc5 div.celda1{
+  grid-area: 1 / 1 / span 1 / span 3;
+}
+
+div.ejerc5 div.celda2{
+  grid-area: 1 / 4 / span 2 / span 1 ;
+  
+}
+
+/*----------ejercicio 6-----------*/
+div.ejerc6 {
+  display: grid;
+  grid-template-rows: repeat(3, 50px);
+  grid-template-columns: repeat(4, 150px);
+  gap: 1px;
+  margin: 20px;
+}
+
+div.ejerc6 div {
+  gap: 1px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(118, 117, 120);
+}
+
+div.ejerc6 div.celda1{
+  grid-area: 1 / 1 / span 1 / span 2;
+}
+
+div.ejerc6 div.celda2{
+  grid-area: 1 / 3 / span 1 / span 2;
+}
+
+div.ejerc6 div.celda3{
+  grid-area: 2 / 1 / span 1 / span 1 ;
+}
+
+div.ejerc6 div.celda4{
+  grid-area: 2 / 2 / span 1 / span 3 ;
+}
+
+div.ejerc6 div.celda5{
+  grid-area: 3 / 1 / span 1 / span 4 ;
+}
+
+/*----------ejercicio 7-----------*/
+div.ejerc7 {
+  display: grid;
+  grid-template-rows: 50px 90px 50px;
+  grid-template-columns: repeat(3, 150px);
+  gap: 1px;
+  margin: 20px;
+}
+
+div.ejerc7 div {
+  gap: 1px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(118, 117, 120);
+}
+
+div.ejerc7 div.celda1{
+  grid-area: 1 / 2 / span 1 / span 2;
+  background-color: brown;
+}
+
+div.ejerc7 div.celda2{
+  grid-area: 2 / 1 / span 1 / span 1;
+}
+
+div.ejerc7 div.celda3{
+  grid-area: 2 / 2 / span 1 / span 2 ;
+
+}
+
+div.ejerc7 div.celda4{
+  grid-area: 3 / 1 / span 1 / span 3 ;
+  background-color: rgb(43, 43, 43);
+}
+
+
+/*----------ejercicio 8-----------*/
+div.ejerc8 {
+  display: grid;
+  width: 400px;
+  height: 150px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin: 20px;
+}
+
+div.ejerc8 div {
+  gap: 1px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(118, 117, 120);
+}
+
+div.ejerc8 div:first-child{
+  order: 1;
+}
+
+/*----------ejercicio 9-----------*/
+
+div.ejerc9 {
+  display: grid;
+  width: 400px;
+  height: 150px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: column;
+  gap: 1px;
+  margin: 20px;
+}
+
+div.ejerc9 div {
+  gap: 1px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(118, 117, 120);
+}
+
+/*----------ejercicio 10-----------*/
+
+div.ejerc10 {
+  display: grid;
+  width: 450px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr 2fr;
+  gap: 1px;
+  margin: 20px;
+}
+
+div.ejerc10 div {
+  padding: 16px;
+  gap: 1px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(118, 117, 120);
+}
+
+div.ejerc10 div.celda4 {
+  grid-area: 2 / 2 / span 2 / span 1 ;
+  
+}
+
+div.grid-interno {
+  display: grid;
+  background-color: white;
+  gap: 1px;
+}
+
+div.grid-interno div{
+  color: black;
+  background-color: rgb(202, 204, 205);
+  padding: 10px;
+
+}
+
+div.grid-interno div:first-child{
+  grid-area: 1 / 1 / span 1 / span 2;
 }
