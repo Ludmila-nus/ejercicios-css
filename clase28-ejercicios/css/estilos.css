@@ -1,0 +1,328 @@
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*----ejercicio 1-----*/
+
+#ejemplo1 {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#ejemplo1 td,
+#ejemplo1 th {
+  padding: 20px;
+}
+
+#ejemplo1 caption {
+  font-size: 2.5em;
+  padding: 20px;
+  text-transform: capitalize;
+}
+
+#ejemplo1 tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#ejemplo1 th {
+  background-color: #080808;
+  color: white;
+}
+
+/*----ejercicio 2-----*/
+
+#ejemplo2 {
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+  border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
+  border-bottom: 3px solid #06977f;
+}
+
+#ejemplo2 td,
+#ejemplo2 th {
+  padding: 10px;
+}
+
+#ejemplo2 caption {
+  font-size: 2.5em;
+  font-weight: 600;
+  padding: 20px;
+}
+
+#ejemplo2 tr:nth-child(odd) {
+  background-color: #f2f2f2;
+  color: #06977f;
+  font-weight: 600;
+}
+
+#ejemplo2 th {
+  background-color: #06977f;
+  color: white;
+}
+
+div.tabla2 {
+  display: flex;
+  justify-content: center;
+}
+
+#ejemplo2 tr>th:first-child {
+  border-top-left-radius: 15%;
+}
+
+#ejemplo2 tr>th:last-child {
+  border-top-right-radius: 15%;
+}
+
+
+/*----ejercicio 3-----*/
+
+#ejemplo3 {
+  border-collapse: collapse;
+  width: 500px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 2px solid #090909;
+  font-size: 1.2em;
+}
+
+#ejemplo3 td,
+#ejemplo3 th {
+  padding: 8px;
+  text-transform: uppercase;
+}
+
+#ejemplo3 caption {
+  font-size: 1.5em;
+  font-weight: 600;
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+#ejemplo3 tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+#ejemplo3 th {
+  background-color: #2b2b2b;
+  color: white;
+}
+
+#ejemplo3 tr>td:first-child {
+  background-color: rgb(83, 83, 237);
+  color: white;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+#ejemplo3 tr>td.resaltado {
+  background-color: rgb(233, 233, 78);
+}
+
+div.tabla3 {
+  display: flex;
+  justify-content: center;
+}
+
+h2.eje3 {
+  text-transform: capitalize;
+  position: relative;
+  left: 350px;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+/*----ejercicio 4-----*/
+
+#ejemplo4 {
+  border-collapse: collapse;
+  width: 800px;
+  text-align: left;
+  border: 15px solid #e6e3e3;
+}
+
+#ejemplo4 td,
+#ejemplo4 th {
+  padding: 20px;
+  font-size: 0.8em;
+}
+
+#ejemplo4 caption {
+  text-transform: capitalize;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: #e6e3e3;
+  font-weight: 600;
+}
+
+#ejemplo4 tr:nth-child(even) {
+  background-color: #cec9c9;
+}
+
+#ejemplo4 th {
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+#ejemplo4 td>button {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+#ejemplo4 td>button.verde {
+  background-color: rgb(82, 178, 82);
+  color: white;
+}
+
+#ejemplo4 td>button.rojo {
+  background-color: rgb(201, 58, 51);
+  color: white;
+}
+
+#ejemplo4 td>button.amarillo {
+  background-color: rgb(233, 218, 60);
+}
+
+
+div.tabla4 {
+  display: flex;
+  justify-content: center;
+}
+
+/*----ejercicio 5-----*/
+#ejemplo5 {
+  border-collapse: collapse;
+  width: 1000px;
+  text-align: left;
+  border: 25px solid #1a1818;
+  font-size: 1.2em;
+  background-color: rgb(50, 50, 50);
+  color: rgb(148, 145, 145);
+}
+
+#ejemplo5 td,
+#ejemplo5 th {
+  padding: 20px;
+  font-size: 0.8em;
+}
+
+#ejemplo5 caption {
+  text-transform: capitalize;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  background-color: #1a1818;
+  font-weight: 500;
+  text-align: left;
+  color: white;
+
+}
+
+
+#ejemplo5 th {
+  text-transform: capitalize;
+  color: white;
+  background-color: #1a1818;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.styled-checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgb(90, 89, 89);
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+div.tabla4 {
+  display: flex;
+  justify-content: left;
+}
+
+#ejemplo5 tr>td:first-child,
+#ejemplo5 tr>td:nth-child(3) span,
+#ejemplo5 tr>td:nth-child(4),
+#ejemplo5 tr>td:nth-child(5) {
+  opacity: 70%;
+}
+
+#ejemplo5 tr>td:nth-child(3) span:first-of-type{
+  display: block;
+  text-transform: capitalize;
+}
+
+#ejemplo5 tr>td:nth-child(2), #ejemplo5 tr>td:nth-child(5) {
+  text-transform: capitalize;
+}
+
+/*----ejercicio 6-----*/
+#ejemplo6 {
+  border-collapse: collapse;
+  width: 1000px;
+  text-align: center;
+  border: 25px solid #cac8c8;
+  font-size: 1.2em;
+  color: rgb(148, 145, 145);
+  color: black;
+}
+
+#ejemplo6 td,
+#ejemplo6 th {
+  padding: 20px;
+  font-size: 0.6em;
+}
+
+#ejemplo6 caption {
+  text-transform: capitalize;
+  padding-top: 10px;
+  padding-left: 15px;
+  background-color: #cac8c8;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(5, 5, 5);
+
+}
+
+#ejemplo6 th {
+  text-transform: capitalize;
+  color: white;
+  background-color: #4f12f6;
+}
+
+#ejemplo6 th:first-of-type{
+text-transform: uppercase;
+}
+
+#ejemplo6 td > button {
+  background-color: #4f12f6;
+  color: white;
+  padding: 7px;
+  border: none;
+}
+
+
+#ejemplo6 tr > td:first-child, 
+#ejemplo6 tr > td:nth-child(3), 
+#ejemplo6 tr > td:nth-child(5){
+  background-color: rgb(219, 235, 243);
+}
+
+#ejemplo6 tr{
+  border: 0.5px solid rgb(148, 155, 159,0.3);
+}
