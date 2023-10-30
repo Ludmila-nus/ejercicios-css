@@ -482,8 +482,16 @@ ul.lista5 li{
   padding: 10px;
 }
 
-li:not(:last-child){
+ul.lista5 li:not(:last-child){
   border-bottom: 1px solid rgb(188, 201, 245);
 }
 
 /* hay que usar ::marker ver como lo aplico para que cada item tenga un marcador distinto*/
+
+ul.lista5 li:nth-child(3n)::marker{
+  content: url(../img/icons8-pixel-cat-16.png);
+}
+
+ul.lista5 li:nth-child(3n - 1)::marker{
+  content: url(../img/icons8-curious-cat-16.png);
+}
