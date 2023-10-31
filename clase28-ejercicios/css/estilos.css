@@ -25,11 +25,12 @@ ul.principal li a{
 div.navbar a:hover{
   background-color: black;
 }
-
+/*para ocultar inicialmente el menu desplegable*/
 div.desplegable{
   display: none;
 }
 
+/*para mostrar el menu desplegable como un blocke hacia abajo*/
 li.li-desplegable:hover div.desplegable{
   display: block;
 }

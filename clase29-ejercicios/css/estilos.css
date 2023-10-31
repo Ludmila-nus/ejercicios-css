@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+ul {
+  list-style-position: outside;
+  list-style-image: url(../img/icon.png);
+}
+
+li a{
+  text-decoration-line: none;
+  color: black;
+  background-color: rgb(204, 208, 208);
+  padding: 20px;
+  display: block;
+  width: 100px;
+  font-weight: 600;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/* --------Ejercicio 1-----------------*/
+p.texto1 {
+  text-transform: uppercase;
+  background-color: rgb(58, 249, 249);
+  width: min-content;
+  padding: 40px 15px;
+  font-size: 95px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 3px grey;
+  margin-left: 40px;
+}
+
+/* --------Ejercicio 2-----------------*/
+p.texto2 {
+  text-transform: uppercase;
+  background-color: rgb(255, 227, 212);
+  width: min-content;
+  padding: 40px 15px;
+  font-size: 95px;
+  font-weight: 700;
+  margin-left: 40px;
+  color: white;
+  text-shadow: 4px 4px 1px rgb(174, 171, 171);
+}
+
+/* --------Ejercicio 3-----------------*/
+p.texto3 {
+  text-transform: uppercase;
+  background-color: rgb(122, 244, 240);
+  width: min-content;
+  padding: 40px 15px;
+  font-size: 95px;
+  font-weight: 700;
+  margin-left: 40px;
+  color: white;
+  text-shadow: -4px 4px 0px rgb(29, 224, 241),-8px 8px 0px rgb(28, 154, 166), -12px 12px 0px rgb(7, 55, 60);
+}
+
+/* --------Ejercicio 4-----------------*/
+p.texto4 {
+  text-transform: uppercase;
+  background-color: rgb(245, 189, 222);
+  width: min-content;
+  padding: 40px 15px;
+  font-size: 95px;
+  font-weight: 700;
+  margin-left: 40px;
+  color: white;
+  text-shadow: 0px 4px 0px rgb(181, 179, 179), 0px 6px 10px rgb(181, 179, 179), 0px 12px 4px rgb(154, 151, 151)
+}
+
+/* --------Ejercicio 5-----------------*/
+p.texto5 {
+  text-transform: uppercase;
+  background-color: rgb(39, 39, 39);
+  width: min-content;
+  padding: 40px 15px;
+  font-size: 95px;
+  font-weight: 700;
+  margin-left: 40px;
+  color: rgb(6, 6, 6);
+  text-shadow: 2px 2px 5px rgb(63, 50, 50);
+}
+
+/* --------Ejercicio 6-----------------*/
+p.box1 {
+  background-color: rgb(203, 199, 199);
+  padding: 40px 80px;
+  font-weight: 600;
+  margin-left: 40px;
+  color: rgb(122, 120, 120);
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgb(155, 152, 152), -2px -2px 4px rgb(155, 152, 152);
+}
+
+/* --------Ejercicio 7-----------------*/
+p.box2 {
+  background-color: rgb(203, 199, 199);
+  padding: 40px 80px;
+  font-weight: 600;
+  margin-left: 40px;
+  color: rgb(122, 120, 120);
+  width: 200px;
+  text-align: center;
+  box-shadow: 2px 2px 4px rgb(155, 152, 152) inset, 4px 4px 4px rgb(180, 179, 179) inset, -2px -2px 4px rgb(155, 152, 152) inset, -4px -4px 4px rgb(180, 179, 179) inset;
+}
+
+/* --------Ejercicio 8-----------------*/
+p.box3 {
+  background-color: rgb(203, 199, 199);
+  padding: 50px;
+  font-weight: 600;
+  margin-left: 40px;
+  color: rgb(122, 120, 120);
+  width: 300px;
+  text-align: center;
+  box-shadow: 2px 2px 4px rgb(155, 152, 152), 4px 4px 4px rgb(180, 179, 179), 8px 8px 8px rgb(180, 179, 179);
+}
+
+/* --------Ejercicio 9-----------------*/
+p.box4 {
+  background-color: rgb(203, 199, 199);
+  padding: 50px;
+  font-weight: 600;
+  margin-left: 40px;
+  color: rgb(122, 120, 120);
+  width: 300px;
+  text-align: center;
+  box-shadow: -2px -2px 4px rgb(155, 152, 152), -4px -4px 4px rgb(180, 179, 179), -8px -8px 8px rgb(180, 179, 179);
+}
+
+
+/* --------Ejercicio 10-----------------*/
+p.box5 {
+  background-color: rgb(203, 199, 199);
+  padding: 50px;
+  font-weight: 600;
+  margin-left: 40px;
+  color: rgb(122, 120, 120);
+  width: 300px;
+  text-align: center;
+  box-shadow: 15px 10px 0px rgb(105, 104, 104);
+}
