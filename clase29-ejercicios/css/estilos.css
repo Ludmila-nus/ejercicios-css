@@ -11,7 +11,7 @@ ul {
   list-style-image: url(../img/icon.png);
 }
 
-li a{
+li a {
   text-decoration-line: none;
   color: black;
   background-color: rgb(204, 208, 208);
@@ -63,7 +63,7 @@ p.texto3 {
   font-weight: 700;
   margin-left: 40px;
   color: white;
-  text-shadow: -4px 4px 0px rgb(29, 224, 241),-8px 8px 0px rgb(28, 154, 166), -12px 12px 0px rgb(7, 55, 60);
+  text-shadow: -4px 4px 0px rgb(29, 224, 241), -8px 8px 0px rgb(28, 154, 166), -12px 12px 0px rgb(7, 55, 60);
 }
 
 /* --------Ejercicio 4-----------------*/
@@ -152,4 +152,22 @@ p.box5 {
   width: 300px;
   text-align: center;
   box-shadow: 15px 10px 0px rgb(105, 104, 104);
+}
+
+/* --------Ejercicio 11-----------------*/
+
+.contenedor {
+  position: relative;
+  width: 1000px;
+}
+
+img.fondo {
+  width: 100%;
+}
+
+img.imagen {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  mix-blend-mode: saturation;
 }
